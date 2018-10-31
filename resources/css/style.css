@@ -1,0 +1,149 @@
+
+html {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 1200px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+}
+
+a {
+  color: seashell;
+}
+
+nav span {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 1200px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h2 {
+  margin-bottom: 0px; 
+}
+
+#tea-of-month {
+  margin-top: 30px;
+  text-align: center;
+  width: 1200px;
+}
+
+.image-container  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.image-container img {
+  height: 200px;
+  width: 300px;
+}
+
+.berry {
+  margin-left: 0;
+  margin-right: 25px;
+}
+
+.spiced {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.donuts {
+  margin-right: 0;
+  margin-left: 25px;
+}
+
+.myrtle {
+  margin-right: 25px;
+}
+
+.bedford {
+  margin-left: 25px;
+}
+
+.image-container figcaption {
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#location h2{
+  flex: 1 0 100%;
+  text-align: center;
+}
+
+#location {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-bottom: 200px;
+}
+
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.contact  {
+  margin-top: 10px;
+  text-align: center;
+  height: 200px;
+  width: 1200px;
+}
+
+.copyright h5 {
+  text-align: left;
+  margin-left: 20px;
+
+}
