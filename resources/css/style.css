@@ -40,7 +40,7 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
 }
@@ -56,7 +56,7 @@ nav span {
 }
 
 .banner h2 {
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
 }
 
 #tea-of-month {
@@ -80,7 +80,7 @@ nav span {
 }
 
 .berry {
-  margin-left: 0;
+  margin-left: 25px;
   margin-right: 25px;
 }
 
@@ -90,7 +90,7 @@ nav span {
 }
 
 .donuts {
-  margin-right: 0;
+  margin-right: 25px;
   margin-left: 25px;
 }
 
@@ -111,6 +111,7 @@ nav span {
 #location h2{
   flex: 1 0 100%;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 #location {
@@ -118,21 +119,21 @@ nav span {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  padding-bottom: 200px;
 }
-
 
 .address {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-self: center;
   background-color: black;
   width: 300px;
   height: 300px;
+  margin-bottom: 100px;
 }
 
 .contact  {
